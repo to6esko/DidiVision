@@ -14,7 +14,6 @@ export default class Home extends React.Component {
                     <h1>Начало</h1>
                 </div>
                     <Navbar />
-                    
             </div>
         );
     }

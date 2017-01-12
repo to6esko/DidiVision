@@ -71,7 +71,7 @@ p{
     width: 70%;
     height: 135px;
     padding: 10px;
-    margin: 15px auto;
+    margin: 15px;
     background-color:rgba(235,240,250,0.9);
 }
 .logo{
@@ -87,12 +87,12 @@ p{
 
 .title{
     position: absolute;
-    width: 15%;
+    width: 33%;
     top: 4%;
-    left: 70%;
+    left: 35%;
     font-style: italic;
     font-weight: normal;
-    line-height: 48px;
+    line-height: 30px;
     color: #4CAF50;
     text-align: justify;
 }
@@ -133,7 +133,7 @@ p{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    left: 175px;
+    left: 145px;
     top:1px;
 }
 

@@ -9,7 +9,6 @@ import App from './components/app';
 import About from './components/Pages/about';
 import VirtualReality from './components/Pages/virtualReality';
 import Shop from './components/Pages/shop';
-import Services from './components/Pages/services';
 import Mobile from './components/Pages/computerAndMobile';
 import Copying from './components/Pages/copyingServices';
 import Multimeia from './components/Pages/multimediaServices';
@@ -23,7 +22,6 @@ ReactDOM.render(
         <Route path="about" component={About} />
         <Route path="virtualReality" component={VirtualReality} />
         <Route path="shop" component={Shop} />
-        <Route path="services" component={Services} />
         <Route path="computerAndMobile" component={Mobile} />
         <Route path="copyingServices" component={Copying} />
         <Route path="multimediaServices" component={Multimeia} />

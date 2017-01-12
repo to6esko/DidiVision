@@ -22,7 +22,7 @@ export default class Navbar extends React.Component {
                         <li><Link to="/about">За нас</Link></li>
                         <li><Link to="/virtualReality">Виртуална реалност</Link></li>
                         <li><Link to="/shop">Магазин</Link></li>
-                        <li className="dropdown"><Link to="/services">Сервиз</Link>
+                        <li className="dropdown"><Link>Сервиз</Link>
                         <ul className="dropdown-content">    
                             <li ><Link to="/computerAndMobile">Сервиз на компютри и мобилни устройства</Link></li>
                             <li><Link to="/copyingServices">Копирни услуги</Link></li>
