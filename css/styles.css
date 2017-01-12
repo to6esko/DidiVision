@@ -23,7 +23,7 @@ body{
     -webkit-tap-highlight-color: transparent;
     font-size: 16px;
     
-    background: transparent url("../img/VisionBackground-4.jpg");
+    background: transparent url("../img/VisionBackground-1.jpg");
     background-attachment:fixed;
     background-size: cover;
     background-position: center;
@@ -71,10 +71,6 @@ p{
     height: 135px;
     padding: 10px;
     margin: 15px auto;
-    background: transparent url("../img/Topki.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color:rgba(235,240,250,0.9);
 }
 .logo{
