@@ -5,7 +5,6 @@ import Home from './home';
 import About from './about';
 import VirtualReality from './virtualReality';
 import Shop from './shop';
-import Services from './services';
 import Mobile from './computerAndMobile';
 import Copying from './copyingServices';
 import Multimeia from './multimediaServices';
