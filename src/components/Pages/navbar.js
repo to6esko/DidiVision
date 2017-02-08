@@ -18,16 +18,16 @@ export default class Navbar extends React.Component {
                 <div className="navbar">
                     <ul>
                         <li><Link to="#/home">Начало</Link></li>    
-                        <li><Link to="/about">За нас</Link></li>
-                        <li><Link to="/virtualReality">Виртуална реалност</Link></li>
-                        <li><Link to="/shop">Магазин</Link></li>
-                        <li className="dropdown"><Link>Сервиз</Link>
+                        <li><Link to="/about">Новини</Link></li>
+                        <li className="dropdown"><Link>Услуги</Link>
                         <ul className="dropdown-content">    
-                            <li ><Link to="/computerAndMobile">Сервиз на компютри и мобилни устройства</Link></li>
+                            <li><Link to="/computerAndMobile">Сервиз на компютри и мобилни устройства</Link></li>
                             <li><Link to="/copyingServices">Копирни услуги</Link></li>
                             <li><Link to="/multimediaServices">Мултимедийни услуги</Link></li>
                             </ul>    
                         </li>
+                        <li><Link to="/virtualReality">Виртуална реалност</Link></li>
+                        <li><Link to="/shop">Магазин</Link></li>
                         <li><Link to="/contacts">Контакти</Link></li>
                     </ul>
                 </div>

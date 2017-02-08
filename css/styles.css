@@ -152,3 +152,8 @@ p{
     display:inline-table;
 }
 
+
+.listText {
+    text-indent: 25px; 
+}
+
