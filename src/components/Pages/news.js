@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Logo from './logo';
 
-export default class About extends React.Component {
+export default class News extends React.Component {
     render() {
         return (
             <div>
@@ -17,9 +17,7 @@ export default class About extends React.Component {
                     <Navbar />
                     <div className="content">
                         <h3>Новини</h3>
-                        <p>
-                           Очаквайте скоро.
-                        </p>
+                        <p> Очаквайте скоро...</p>
                     </div>
                 </div>
             </div>
