@@ -22,12 +22,12 @@ export default class Contacts extends React.Component {
                         <p>Ул. „Петко Стайнов“ № 12 (до Вх. 9),</p>
                         <br/>
                         <p>Управител: Пламен Стоилов</p>
-                        <p>Телефон за контакт: 0898 529 363</p>
+                        <p>Телефон за контакт: <span className='address'>0898 529 363</span></p>
                         <br/>
                         <p>Технически организатор: Дияна Кръстева</p>
-                        <p>Телефон за контакт: 0884 84 35 33</p>
+                        <p>Телефон за контакт: <span className='address'>0884 84 35 33</span></p>
                         <br/>
-                        <p>e-mail: vrvision@abv.bg</p>
+                        <p>e-mail: <span className='address'>vrvision@abv.bg</span></p>
                     </div>
                 </div>
             </div>

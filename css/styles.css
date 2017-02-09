@@ -67,7 +67,9 @@ p{
     font-size: 0.8em;
     text-align: justify;
 }
-
+.address{
+    color: #008CBA;
+}
 .logo-content{
     position: relative;
     width: 65%;
