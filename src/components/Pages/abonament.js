@@ -16,7 +16,6 @@ export default class Abonamet extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
-                        <h3>Абонаментна програма</h3>
                         <p>
                            За нашите бизнес клиенти имаме специална 
                            абонаментна програма. Услугите, включени 

@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './navbar';
 import Logo from './logo';
 
+//not use
 export default class Service extends React.Component {
     render() {
         return (

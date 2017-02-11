@@ -11,12 +11,11 @@ export default class Copying extends React.Component {
                     <Logo />
                 </div>
                 <div className="title">
-                    <h1>Копирни услуги</h1>
+                    <h1>Услуги</h1>
                 </div>
                 <div className="container">
                     <Navbar />
                     <div className="content">
-                        <h3>Копирни услуги</h3>
                         <p>
                             Ние сканираме всичко – документи, плакати, 
                             книги и много други. Нашето оборудване позволява 

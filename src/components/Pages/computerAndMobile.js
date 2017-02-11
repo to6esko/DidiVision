@@ -11,7 +11,7 @@ export default class Mobile extends React.Component {
                     <Logo />
                 </div>
                 <div className="title">
-                    <h1>Сервиз на компютри и мобилни устройства</h1>
+                    <h1>Услуги</h1>
                 </div>
                 <div className="container">
                     <Navbar />

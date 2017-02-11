@@ -16,7 +16,6 @@ export default class Promo extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
-                        <h3>Промоции</h3>
                         <p>Ние вярваме в истинските цени на нещата.
                             Не би имало промоция ако надуем цените и
                             после ги свалим за кратко. Нашите промоции

@@ -6,14 +6,14 @@ import createHistory from 'history/createBrowserHistory';
 
 import App from './components/app';
 import Home from './components/Pages/home';
-import News from './components/Pages/news';
-import Service from './components/Pages/service';
+//import News from './components/Pages/news';
 import Mobile from './components/Pages/computerAndMobile';
 import Multimeia from './components/Pages/multimediaServices';
 import VirtualReality from './components/Pages/virtualReality';
 import Abonament from './components/Pages/abonament';
 import Shop from './components/Pages/shop';
 import Copying from './components/Pages/copyingServices';
+//import Service from './components/Pages/service';
 import Promo from './components/Pages/promo';
 import Contacts from './components/Pages/contacts';
 
@@ -22,14 +22,12 @@ const app = document.getElementById('app');
 ReactDOM.render(
     <Router history={hashHistory} >
         <Route path="/" component={App}/>
-        <Route path="news" component={News} />
         <Route path="computerAndMobile" component={Mobile} />
         <Route path="copyingServices" component={Copying} />
         <Route path="multimediaServices" component={Multimeia} />
         <Route path="virtualReality" component={VirtualReality} />
         <Route path="abonament" component={Abonament}/>
         <Route path="shop" component={Shop} />
-        <Route path="service" component={Service}/>
         <Route path="promo" component={Promo}/>
         <Route path="contacts" component={Contacts} />
     </Router >, app

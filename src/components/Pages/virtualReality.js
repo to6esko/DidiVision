@@ -16,7 +16,6 @@ export default class VirtualReality extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
-                        <h3>Виртуална реалност</h3>
                         <p>
                             Добре дошли във виртуалната реалност. 
                             Това не е 3D или някакви ефекти с вода 

@@ -16,7 +16,6 @@ export default class Shop extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
-                        <h3>Магазин</h3>
                         <p>
                             Желаете ли да си купите нов компютър или 
                             таблет? Може би се интересувате от 

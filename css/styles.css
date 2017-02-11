@@ -19,9 +19,9 @@ body{
     font-family: brandon-grotesque,Adobe Kaiti Std R,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
-    color: #555F61;
+    /*color: #555F61;*/
     -webkit-tap-highlight-color: transparent;
-    font-size: 16px;
+    font-size: 17px;
     
     background: transparent url("../img/VisionBackground-1.jpg");
     background-attachment:fixed;
@@ -76,7 +76,7 @@ p{
     height: 135px;
     padding: 10px;
     margin: 15px;
-    background-color:rgba(235,240,250,0.9);
+    /*background-color:rgba(235,240,250,0.9);*/
 }
 .logo{
     width: 20%;
@@ -93,7 +93,7 @@ p{
     position: absolute;
     width: 29%;
     top: 4%;
-    left: 35%;
+    left: 20%;
     font-style: italic;
     font-weight: normal;
     line-height: 30px;
@@ -103,10 +103,10 @@ p{
 
 .container{
     position: absolute; 
-    width: 65%;
+    width: 50%;
     height: auto;
     margin: 15px;
-    background-color:rgba(235,240,250,0.9);
+    /*background-color:rgba(235,240,250,0.9);*/
     z-index: 2;
 }
 
