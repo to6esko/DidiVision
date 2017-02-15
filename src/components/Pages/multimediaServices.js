@@ -16,6 +16,7 @@ export default class Multimeia extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
+                        <h3>Мултимедийни услуги</h3>
                         <p>
                             Ние извършваме най-различни услуги, 
                             свързани с дигитална информация. Аудио, 

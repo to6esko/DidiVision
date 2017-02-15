@@ -16,6 +16,7 @@ export default class Copying extends React.Component {
                 <div className="container">
                     <Navbar />
                     <div className="content">
+                        <h3>Копирни услуги</h3>
                         <p>
                             Ние сканираме всичко – документи, плакати, 
                             книги и много други. Нашето оборудване позволява 
