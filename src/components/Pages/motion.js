@@ -5,7 +5,7 @@ import presets from './presets';
 
 const title = [
     {
-        task: "Вашият комютър е в сигурни ръце"
+        task: "Вашият компютър е в сигурни ръце"
     },
     {
         task: "Инсталиране на посочен софтуер или операционна система"
@@ -66,29 +66,48 @@ export default class TextMotion extends React.Component {
 
     render() {
         const titles = this.state.title[this.state.key];
+
+        let taskIndex=+1;
         return (
-            <Motion 
-                defaultStyle={{ y: 350, x: 350, z: 1 }}
-                style={{
-                    y: spring(70, presets.moble),
-                    x: spring(70, presets.moble),
-                    z: 1
-                }}>
-                {(obj) => {
-                    const {y, x, z} = obj;
-                    let style = {
-                        WebkitTransform: `translate3d(${x}px, ${y}px, 0) scale(${z})`,
-                        transform: `translate3d(${x}px, ${y}px, 0) scale(${z})`
-                    }
-                    return (
-                        <div className="slide-content">
-                            <div className="slideShow">
-                                <p className="motion" style={style}>{titles.task}</p>
-                            </div>
-                        </div>
-                    )
-                }}
-            </Motion>
+            <div>
+                {
+                    this.state.title.map((taskObject) => {
+                        taskIndex++;
+
+                        const pos = taskIndex % 2 === 0 ?
+                            {
+                                y: spring(80, presets.moble),
+                                x: spring(80, presets.moble),
+                                z: 1
+                            } :
+                            {
+                                y: spring(-80, presets.moble),
+                                x: spring(-80, presets.moble),
+                                z: 1
+                            }
+                        
+                        return <Motion key={taskIndex}
+                            defaultStyle={{ y: 350, x: 350, z: 1 }}
+                            style={pos}>
+                            
+                            {(obj) => {
+                                const {y, x, z} = obj;
+                                let style = {
+                                    WebkitTransform: `translate3d(${x}px, ${y}px, 0) scale(${z})`,
+                                    transform: `translate3d(${x}px, ${y}px, 0) scale(${z})`
+                                }
+                                return (
+                                    <div className="slide-content">
+                                        <div className="slideShow">
+                                            <p className="motion" style={style}>{titles.task}</p>
+                                        </div>
+                                    </div>
+                                )
+                            }}
+                        </Motion>
+                    })
+                }
+            </div>
         )
     }
 }
