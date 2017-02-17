@@ -40,7 +40,7 @@ export default class VirtualReality extends React.Component {
                             Ако ви хареса, можете да й се насладите почасово.</p>
                         <p className="listText">Цени:</p>
                                 <p className="listText">15 Мин. – 3 лв.</p>
-                                <p className="listText">15 Мин. – 6 лв.</p>
+                                <p className="listText">30 Мин. – 6 лв.</p>
                                 <p className="listText">1 Час – 10 лв.</p>
                                 <p className="listText">2 Часа – 18 лв.</p> 
                                 <p className="listText">10 Часа – 80 лв.</p> 
