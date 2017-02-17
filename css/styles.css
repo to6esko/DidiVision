@@ -22,13 +22,11 @@ body{
     /*color: #555F61;*/
     -webkit-tap-highlight-color: transparent;
     font-size: 17px;
-    
     background: transparent url("../img/VisionBackground-1.jpg");
     background-attachment:fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: auto hidden;
     z-index: 1;
 }
 
