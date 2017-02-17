@@ -39,11 +39,11 @@ export default class VirtualReality extends React.Component {
                         <p>ЗАПОВЯДАЙТЕ в нашия офис за демонстрация на виртуалната реалност.
                             Ако ви хареса, можете да й се насладите почасово.</p>
                         <p className="listText">Цени:</p>
-                                <p className="listText">15 Мин. – 3 лв.</p>
-                                <p className="listText">30 Мин. – 6 лв.</p>
-                                <p className="listText">1 Час – 10 лв.</p>
-                                <p className="listText">2 Часа – 18 лв.</p> 
-                                <p className="listText">10 Часа – 80 лв.</p> 
+                                <p className="listText">15 мин. – 3 лв.</p>
+                                <p className="listText">30 мин. – 6 лв.</p>
+                                <p className="listText">1 час – 10 лв.</p>
+                                <p className="listText">2 часа – 18 лв.</p> 
+                                <p className="listText">10 часа – 80 лв.</p> 
                                 <p className="listText">Над 48 часа – по договорка</p>
                         <p>Срещу съответните цени предлагаме пакети които могат да се
                             използват в едномесечен срок и от неограничен брой потребители.</p>
