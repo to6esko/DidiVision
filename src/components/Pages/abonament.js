@@ -11,7 +11,7 @@ export default class Abonamet extends React.Component {
                     <Logo />
                 </div>
                 <div className="title">
-                    <h1>Абонамент</h1>
+                    <h1>Абонаментна програма</h1>
                 </div>
                 <div className="container">
                     <Navbar />
