@@ -9,6 +9,10 @@ html,body{
  box-sizing: border-box;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 img{
     max-width: 100%;
 }
@@ -75,6 +79,9 @@ body{
 	opacity: 1;
 }
 
+h3{
+    text-align: left;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -164,8 +171,9 @@ p{
 }
 
 .content{  
+    display: block;
     position: relative;
-    margin-left: 190px;  
+    margin-left: 200px;  
     padding:75px;    
     text-align: justify;
 }
@@ -203,3 +211,48 @@ p{
     text-indent: 25px; 
 }
 
+
+/*
+@media all and (max-width: 1366px) {
+    .container{
+        width: 60%
+    }
+}
+@media all and (max-width: 1280px) {
+	.motion{
+        left:40%;
+    }
+}
+@media all and (max-width: 1024px) {
+	.motion{
+        left:45%;
+    }
+    .container{
+        width: 65%
+    }
+}
+@media only screen and (max-width : 992px) {
+    .motion{
+        left:50%;
+    }
+    .container{
+        width: 70%;
+    }
+}
+@media only screen and (max-width : 640px) {
+    .motion{
+        display: none;
+    }
+    .container{
+        width: 80%;
+    }
+    .content{
+        display: inline-block;
+        top: 250px;
+        margin-left: 0px;
+    }
+    .navbar{
+        margin-top: 0px;
+    }
+}
+*/

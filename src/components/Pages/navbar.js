@@ -29,7 +29,7 @@ export default class Navbar extends React.Component {
                             </ul>    
                         </li>
                         <li><Link to="/virtualReality">Виртуална реалност</Link></li>
-                        <li><Link to="/abonament">Абонаментна програма</Link></li>
+                        <li><Link to="/abonament">Абонамент</Link></li>
                         <li><Link to="/shop">Магазин</Link></li>
                         <li><Link to="/promo">Промоции</Link></li>
                         <li><Link to="/contacts">Контакти</Link></li>

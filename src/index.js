@@ -21,7 +21,10 @@ import Contacts from './components/Pages/contacts';
 const app = document.getElementById('app');
 ReactDOM.render(
     <Router history={hashHistory} >
-        <Route path="/" component={App}/>
+        <Route>
+            <Route path="/" component={App} />
+            <IndexRoute component={Home} />
+        </Route>    
         <Route path="computerAndMobile" component={Mobile} />
         <Route path="copyingServices" component={Copying} />
         <Route path="multimediaServices" component={Multimeia} />
