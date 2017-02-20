@@ -104,7 +104,6 @@ li a {
     padding: 8px 16px;
     border-radius: 10px;
     text-decoration: none;
-    text-align: center;
 }
 
 
@@ -123,15 +122,14 @@ p{
 }
 .logo-content{
     position: relative;
-    width: 65%;
     height: 135px;
     padding: 10px;
     margin: 15px;
     /*background-color:rgba(235,240,250,0.9);*/
 }
 .logo{
-    width: 20%;
-    height: 65%;
+    width: 170px;
+    height: 135px;
     position: absolute;
     top: 20%;
     left: 5%;
@@ -154,9 +152,9 @@ p{
 
 .container{
     position: absolute; 
-    width: 50%;
     height: auto;
     margin: 15px;
+    text-align: center;
     /*background-color:rgba(235,240,250,0.9);*/
     z-index: 2;
 }
@@ -172,10 +170,10 @@ p{
 
 .content{  
     display: block;
+    width:55%;        
     position: relative;
     margin-left: 200px;  
     padding:75px;    
-    text-align: justify;
 }
 
 
@@ -212,11 +210,9 @@ p{
 }
 
 
-/*
+
 @media all and (max-width: 1366px) {
-    .container{
-        width: 60%
-    }
+   
 }
 @media all and (max-width: 1280px) {
 	.motion{
@@ -227,32 +223,56 @@ p{
 	.motion{
         left:45%;
     }
-    .container{
-        width: 65%
-    }
 }
 @media only screen and (max-width : 992px) {
     .motion{
         left:50%;
     }
-    .container{
-        width: 70%;
+    .title{
+        top:150px;
     }
 }
+
+@media only screen and (max-width : 736px){
+
+}
+
 @media only screen and (max-width : 640px) {
     .motion{
         display: none;
     }
-    .container{
-        width: 80%;
+.dropdown > a:nth-of-type(1) {
+    display: none;
+}
+.dropdown-content {
+    display: block;
+    position: relative;
+    background-color:rgba(235,240,250,0.9);
+    box-shadow: none;
+    left:0;
+}
+
+
+
+
+@media only screen and (max-width : 480px){
+    .navbar{
+        margin-top:0;
     }
     .content{
-        display: inline-block;
-        top: 250px;
-        margin-left: 0px;
-    }
-    .navbar{
-        margin-top: 0px;
+        margin: auto;
+        width: 100%;
+        top:280px;
     }
 }
-*/
+
+@media only screen and (max-width : 320px){
+    .logo-content{
+        height: 100px;
+        margin: auto;
+        width: 66%;
+    }
+    .navbar{
+        margin-top:35px;
+    }
+}

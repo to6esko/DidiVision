@@ -12,7 +12,6 @@ export default class Home extends React.Component {
                     <Logo />
                 </div>
                 <div className="title">
-                    <h1>Начало</h1>
                 </div>
                 <div>
                     <Navbar />

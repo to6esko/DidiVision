@@ -67,7 +67,7 @@ export default class TextMotion extends React.Component {
     render() {
         const titles = this.state.title[this.state.key];
 
-        let taskIndex=+1;
+        let taskIndex=1;
         return (
             <div>
                 {
