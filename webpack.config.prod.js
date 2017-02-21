@@ -1,4 +1,6 @@
-// command: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../DidiVisionDemo/bundle.js ; rm -rf ../DidiVisionDemo/img ../DidiVisionDemo/css/; cp -R index.html img css/ ../DidiVisionDemo/; cd ../DidiVisionDemo; git add * ; git commit -am "update"; git push; cd  ../DidiVision
+// command Demo: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../DidiVisionDemo/bundle.js ; rm -rf ../DidiVisionDemo/img ../DidiVisionDemo/css/; cp -R index.html img css/ ../DidiVisionDemo/; cd ../DidiVisionDemo; git add * ; git commit -am "update"; git push; cd  ../DidiVision
+
+// command Live: cp public/bundle.js ../DidiVisionLive/bundle.js ; rm -rf ../DidiVisionLive/img ../DidiVisionLive/css/; cp -R index.html img css/ ../DidiVisionLive/; cd ../DidiVisionLive; git add * ; git commit -am "update"; git push; cd  ../DidiVision
 
 "use strict";
 
