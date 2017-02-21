@@ -116,7 +116,7 @@ li a:hover {
 
 p{
     font-size: 0.8em;
-    text-align: justify;
+    text-align: left;
 }
 .address{
     color: #008CBA;
@@ -234,7 +234,19 @@ p{
 }
 
 @media only screen and (max-width : 736px){
-    
+    .navbar{
+        margin-top: 0;
+    }
+
+    .title {
+        top: 150px;
+        left: 270px;
+    }
+    .motion{
+        left: 60%;
+        top:50%;
+        font-size: 0.8em;
+    }
 }
 
 
@@ -243,7 +255,35 @@ p{
 
 
 @media only screen and (max-width : 640px) {
+    .navbar{
+        margin-top: 0;
+    }
+
+    .title {
+        top: 150px;
+        left: 270px;
+    }
+    .motion{
+        left: 60%;
+        top:50%;
+        font-size: 0.8em;
+    }
     
+    .dropdown > a:nth-of-type(1) {
+        display: none;
+    }
+
+    .dropdown-content {
+        display: block;
+        position: relative;
+        background-color:rgba(235,240,250,0.9);
+        box-shadow: none;
+        left:0;
+    }
+    a:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
 }
 
 
@@ -253,6 +293,7 @@ p{
     }
     .title{
         top: 235px;
+        left: 70px;
     }
     .content{
         margin: auto;
@@ -261,7 +302,7 @@ p{
         padding: 30px 50px 20px 75px;
     }
     .motion{
-        left: 35%;
+        left: 60%;
         top:50%;
         font-size: 0.8em;
     }
@@ -272,7 +313,6 @@ p{
     .home-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
         min-width: 160px;
         top:36px;
     }
@@ -282,7 +322,6 @@ p{
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        border-radius: 35;
     }
 
     .home:hover .home-content {
@@ -307,17 +346,23 @@ p{
 }
 
 
-@media only screen and (max-width : 320px){
+@media only screen and (min-width : 100px) and (max-width : 360px){
     .navbar{
         margin-top: -10px;
+        left:15%;
+    }
+    .logo-content {
+        width: 60%;
+        margin:auto;
     }
     .title{
-        top: 235px;
+        top: 180px;
+        left: 70px;
     }
     .content{
         margin: auto;
         width: 100%;
-        top: 125px;
+        top: 110px;
     }
     .motion{
         left: 35%;
@@ -331,7 +376,6 @@ p{
     .home-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
         min-width: 160px;
         top:36px;
     }
@@ -341,7 +385,6 @@ p{
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        border-radius: 35;
     }
 
     .home:hover .home-content {
