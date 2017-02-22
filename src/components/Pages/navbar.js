@@ -20,7 +20,7 @@ export default class Navbar extends React.Component {
             <div>
                 <nav className="navbar" role="navigation">
                     <ul className="home">
-                        <li><Link to="#/home" aria-haspopup="true">Начало</Link></li>
+                        <li><Link to="#/home" aria-haspopup="true">Меню</Link></li>
                         <ul className="home-content">
                             <li className="dropdown"><Link>Услуги</Link>
                                 <ul className="dropdown-content">
