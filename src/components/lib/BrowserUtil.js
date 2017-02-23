@@ -11,7 +11,7 @@ export default class BrowserUtil{
     }
   */
     checkIsLowResolution() {
-        const dimension1 = 630;
+        const dimension1 = 640;
         const dimension2 = 360;
         
         if (window.innerWidth <= dimension1 && window.innerHeight <= dimension2
