@@ -17,7 +17,7 @@ import Copying from './components/Pages/copyingServices';
 import Promo from './components/Pages/promo';
 import Contacts from './components/Pages/contacts';
 
-
+document.getElementById('versionSpan').innerHTML = __COMMIT_HASH__;
 const app = document.getElementById('app');
 ReactDOM.render(
     <Router history={hashHistory} >

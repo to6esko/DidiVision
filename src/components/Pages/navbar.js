@@ -12,15 +12,17 @@ import Shop from './shop';
 //import Service from './service';
 import Promo from './promo';
 import Contacts from './contacts';
+import BrowserUtil from '../lib/BrowserUtil';
 
 
 export default class Navbar extends React.Component {
     render() {
+        const browserUtil = new BrowserUtil();
         return (
             <div>
                 <nav className="navbar" role="navigation">
                     <ul className="home">
-                        <li><Link to="#/home" aria-haspopup="true">Меню</Link></li>
+                        <li><Link to="#/home">{browserUtil.checkIsLowResolution()}</Link></li>
                         <ul className="home-content">
                             <li className="dropdown"><Link>Услуги</Link>
                                 <ul className="dropdown-content">

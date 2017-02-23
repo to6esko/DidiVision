@@ -2,6 +2,11 @@
 var webpack = require('webpack');
 let path = require('path');
 
+// get git info from command line
+let commitHash = require('child_process')
+  .execSync('git rev-parse --short HEAD')
+  .toString();
+
 module.exports = {
     devtool: 'unline-source-map',
     entry: [
@@ -28,6 +33,14 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
+        new webpack.NoErrorsPlugin(),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery"
+        }),
+         new webpack.DefinePlugin({
+            __COMMIT_HASH__: JSON.stringify(commitHash),
+        })
     ]
 }
