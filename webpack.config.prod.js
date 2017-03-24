@@ -2,6 +2,23 @@
 
 // command Live: cp public/bundle.js ../DidiVisionLive/bundle.js ; rm -rf ../DidiVisionLive/img ../DidiVisionLive/css/; cp -R index.html img css/ ../DidiVisionLive/; cd ../DidiVisionLive; git add * ; git commit -am "update"; git push; cd  ../DidiVision
 
+
+
+
+
+//VideoPopup1
+
+// command Live: webpack -p --progress --config webpack.config.prod.js ; cp public/bundle.js ../VideoPopupDemo/bundle.js ; rm -rf ../VideoPopupDemo/img ../VideoPopupDemo/css/; cp -R index.html img css/ ../VideoPopupDemo/; cd ../VideoPopupDemo; git add * ; git commit -am "update"; git push; cd  ../VideoPopup1
+
+//                         suzdava nov bunle.js                        ;          kopira noviq bundle.js vuv demo        ;            rm iztriva  img css                     ; cp kopira noviq index.html css img vuv demo ;   cd vuv demo       ;  add dobavq vsichki promeni; commit vsichki promeni; push ; cd vrushta obratno v VP1
+
+
+
+
+
+
+
+
 "use strict";
 
 let webpack = require("webpack");
